@@ -33,21 +33,4 @@ class Stack :
 
 
 
-list=[1,2,3,4,5,6]
-
-stack = Stack()
-
-for item in list:
-
-    stack.push(item)
-
-stack.display()
-
-print("<------------------------------->")
-
-stack.pop()
-
-stack.display()
-print("<-------------------------------->")
-
 
