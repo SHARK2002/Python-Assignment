@@ -28,7 +28,9 @@ class Stack :
     def display(self):
 
         for value in self.stack:
-            print(value)
+            print(value, sep=" ")
+
+
 
 
 

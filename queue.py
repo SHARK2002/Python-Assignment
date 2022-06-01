@@ -30,7 +30,7 @@ class Queue:
     def display(self):
 
         for values in self.queue:
-            print(values)
+            print(values, sep=" ")
 
 
 
