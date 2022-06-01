@@ -24,7 +24,7 @@ class Sort:
             if not flag:
                 break
     
-        print(*self.array)
+        return(self.array)
 
 
         
@@ -34,7 +34,8 @@ list=[1,234,4,1325]
 obj1=Sort(list);
 
 
-obj1.bubble_sort()
+
+print(obj1.bubble_sort())
 
 
 

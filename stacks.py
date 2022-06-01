@@ -26,10 +26,10 @@ class Stack :
 
 
     def display(self):
-
+        print("[",end=" ")
         for value in self.stack:
-            print(value, sep=" ")
-
+            print(value, sep=" ",end=" ")
+        print("]")
 
 
 
