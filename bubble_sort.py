@@ -22,6 +22,6 @@ def bubble_sort(array):
 
 
 
-list=[1,2,3,4,5,6,7]
+list=[1234,1426,146,134,235,12461]
 
 print(bubble_sort(list))
